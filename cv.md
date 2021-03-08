@@ -1,5 +1,7 @@
 # Bogdanova Marina
 
+### Student, Fullstack Developer
+
 ## Contact info:
 
 e-mail: bogdanovamariwa@gmail.com\
@@ -7,6 +9,8 @@ phone: +380639519208\
 telegram: @marinabogda\
 skype: mariwavs\
 vk: https://vk.com/id19344495\
+
+## About me
 
 > My goal is to become a fullstask developer
 
@@ -18,9 +22,26 @@ vk: https://vk.com/id19344495\
 - Git
 - WebPack
 
-## Work experience:
+## Code example:
 
-- practicing student in courses GoIt
+```sh
+
+"use strict;
+const invoice = 100;
+const stock = 100;
+
+const message =
+invoice <= 100
+? 'The order is placed, the manager will contact you'
+: 'There are not enough items in stock!';
+
+console.log(message);
+
+```
+
+## Work :
+
+practicing student in courses GoIt
 
 ## Educational project:
 
