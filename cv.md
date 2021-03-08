@@ -13,6 +13,8 @@ vk: https://vk.com/id19344495\
 ## About me
 
 > My goal is to become a fullstask developer
+> Learn and develop every day
+> Don't stop there
 
 ## Skills:
 
@@ -25,8 +27,7 @@ vk: https://vk.com/id19344495\
 ## Code example:
 
 ```sh
-
-"use strict;
+"use strict"
 const invoice = 100;
 const stock = 100;
 
