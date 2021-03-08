@@ -24,9 +24,7 @@ vk: https://vk.com/id19344495\
 
 ## Educational project:
 
-[HTML,SASS][1]
-⋮
-[1]: https://bogdanovamarina.github.io/goit-markup-hw-08/
+[HTML,SASS] : https://bogdanovamarina.github.io/goit-markup-hw-08/
 
 ## Education:
 
