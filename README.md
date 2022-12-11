@@ -1,1 +1,1 @@
-# My CV as a markup : https://github.com/BogdanovaMarina/rsschool-cv/cv
+# My CV as a markup : https://BogdanovaMarina.github.io/rsschool-cv/
