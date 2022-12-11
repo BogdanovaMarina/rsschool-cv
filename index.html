@@ -1,12 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-</head>
-<body>
-    
-</body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      >
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+      >
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Tech Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="container">
+      <div class="flex-main">
+        <aside class="sidebar">
+          <img src="./img/photo-2022.jpg" alt="my foto" width="370">
+          <div class="contacts-container">
+            <h2 class="contacts-title">Contacts</h2>
+            <ul class="list-contacts" id="contacts">
+              <li>
+                <img
+                  class="contacts-link-type"
+                  src="./img/phone.svg"
+                  alt="phone"
+                  >
+                <a class="contacts-link" href="tel:+380639519208"
+                  >+38&nbsp;063&nbsp;95&nbsp;19&nbsp;208</a
+                >
+              </li>
+              <li>
+                <img
+                  class="contacts-link-type"
+                  src="./img/email.svg"
+                  alt="email"
+                  >
+                <a class="contacts-link" href="mailto:bogdanovamariwa@gmail.com"
+                  >bogdanovamariwa@gmail.com</a
+                >
+              </li>
+              <li>
+                <img
+                  class="contacts-link-type"
+                  src="./img/discord.svg"
+                  alt="discord"
+                  >
+                <a class="contacts-link" href="https://discord.gg/V9zhrcFWUH"
+                  >Маринка#3006</a
+                >
+              </li>
+              <li>
+                <img
+                  class="contacts-link-type"
+                  src="./img/telegram.svg"
+                  alt="telegram"
+                  >
+                <a class="contacts-link" href="https://t.me/marinabogda"
+                  >@marinabogda</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="tech-skills-container" id="skills">
+            <h2 class="tech-skills-title">Tech Skills</h2>
+            <ul>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">HTML5</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">CSS3</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">SASS</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">GIT</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">WebPack</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-text">JavaScript</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <section class="about-me-container" id="about">
+          <div class="info-container">
+            <h2 class="profession">Student, Front-end Developer</h2>
+            <h1 class="name">Bogdanova Marina</h1>
+            <h3 class="about-me-title">About me</h3>
+            <p class="description">
+              My goal is to become a fullstask developer.Learn and develop every
+              day.Don't stop there.
+            </p>
+          </div>
+          <div>
+            <h3 class="about-me-title" id="code">Code exaple</h3>
+            <code class="content">
+              "use strict" <br>
+              const invoice = 100; <br>
+              const stock = 100; <br>
+              const message = invoice &lt;= 100 <br>
+              ? 'The order is placed, the manager will contact you' <br>
+              : 'There are not enough items in stock!' ; <br>
+              console.log(message);
+            </code>
+          </div>
+          <div>
+            <h3 class="about-me-title" id="courses">Courses</h3>
+            <ul class="list-courses">
+              <li>
+                <a
+                  class="content-link"
+                  href="https://www.sololearn.com/Certificate/1014-18566798/jpg"
+                  >Sololearn - HTML course</a
+                >
+              </li>
+              <li>
+                <a class="content-link" href="./img/code-basics_html.png"
+                  >Code Basics - HTML</a
+                >
+              </li>
+              <li>
+                <a class="content-link" href="./img/code-basics_css.png"
+                  >Code Basics - CSS</a
+                >
+              </li>
+              <li>
+                <a class="content-link" href="./img/certificate.png"
+                  >GoIt - HTML</a
+                >
+              </li>
+              <li>
+                <a class="content-link" href="https://htmlacademy.ru/study"
+                  >HTML Academy - on study</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="projects-container">
+            <h3 class="about-me-title" id="projects">Projects</h3>
+
+            <a
+              class="content-link"
+              href="https://bogdanovamarina.github.io/goit-markup-hw-08/"
+            >
+              https://bogdanovamarina.github.io/goit-markup-hw-08/</a
+            >
+            <span class="dots">.................</span>
+            <span>
+              <b>[</b> <span class="tech-name"> HTML5, CSS3, SASS</span>
+              <b>]</b>
+            </span>
+          </div>
+
+          <div>
+            <h3 class="about-me-title" id="education">Education</h3>
+            <p>
+              <span class="content"
+                >Kharkov National University of Economics</span
+              >
+            </p>
+          </div>
+          <div>
+            <h3 class="about-me-title" id="english">English</h3>
+            <p><span class="content">A2</span></p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="container">
+      <div class="footer">
+        <div>
+          <a
+            href="https://github.com/BogdanovaMarina"
+            title="My GitHub"
+            target="_blank"
+          >
+            <figure>
+              <img
+                class="icon-github"
+                src="./img/github.svg"
+                alt="github"
+                width="70"
+                >
+            </figure>
+          </a>
+        </div>
+        <div>
+          <a href="https://rs.school/js/" target="_blank">
+            <img
+              src="https://rs.school/images/rs_school_js.svg"
+              title="RS School"
+              alt="rs school docs"
+              width="200"
+              >
+          </a>
+        </div>
+        <div>
+          <span class="copyright">©&nbsp;2022</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
