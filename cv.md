@@ -23,6 +23,8 @@ vk: https://vk.com/id19344495\
 - HTML5
 - CSS3
 - Java Script
+- Git
+- SASS
 - WebPack
 
 ## Code example:
