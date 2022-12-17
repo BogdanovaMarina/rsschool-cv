@@ -14,6 +14,9 @@ body {
   letter-spacing: 0.03em;
   background: #839bc16b;
 }
+li{
+  list-style-type :none;
+}
 
 .container {
   max-width: 1440px;
